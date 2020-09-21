@@ -1,0 +1,113 @@
+header{
+	width:100%;
+	margin:auto;
+	display:table;
+}
+.logo{
+	float:left;
+	padding-left:10px;
+}
+.menu{
+	float:right;
+}
+.text{
+	text-decoration:none;
+	font-family:Adobe Gothic Std B;
+	color:#1A5411;
+}
+.text:hover{
+	background:#319B20;
+	font-size:20px;
+}
+
+hr{
+	color:#1A5411;
+	background:#1A5411;
+	height:20px;
+	width:100%;
+}
+.coluna{
+	float:left;
+	width:25%;
+}
+.fundo1{
+	background:url(revendedor.fw.png);
+	height:557px;
+	width:1358px;
+}
+.conteudo{
+	display:table;
+	width:100%;
+	height:400px;
+	background:#1A5411;
+}
+.rodape{
+	display:table;
+	width:100%;
+	background:#D8D8D8;
+	height:280px;
+}
+h2{
+	color:#fff;
+	text-align:center;
+}
+.icone{
+	padding-left:80px;
+}
+.pedido{
+	text-decoration:none;
+	margin: auto;
+	color: greenyellow;
+
+}
+.box{
+	float:left;
+	width:270px;
+	padding-left:100px;
+}
+#email{
+	width:200px;
+}
+form{
+	height:100px;
+}
+.botao{
+	color: greenyellow;
+}
+
+
+
+
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body {
+ 	margin: 0; 
+} 
+div#slider {
+    overflow: hidden; 
+}
+div#slider figure img { 
+	width: 20%; 
+	float: left; 
+}
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
